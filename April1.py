@@ -1,1 +1,1 @@
-#Crear un sistema que sume los digitos de cualquier numero como no.
+#Crear un sistema que sume los digitos de cualquier numero como no..
