@@ -3,7 +3,6 @@
 #Importar librerias
 #para no usar sufijos puedes usar "from math import *" pero no es recomendable porque se confunden las llamadas
 import math as m
-
 #Programa que lee un numero entero de 3 digitos y que lo imprima alreves
 rn=int(input("Introduce un numero de 3 digitos→"))
 x= rn%10
