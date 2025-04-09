@@ -1,6 +1,27 @@
 #el historial de este script se lee de abajo para arriba
+#ejemplo 8
+z1= int(input('Numero entero 1:'))
+z2= int(input('Numero entero 2:'))
+z3= int(input('Numero entero 3:'))
+mayor = max(z1,z2,z3)
+menor = min(z1,z2,z3)
+medio = z1+z2+z3 - mayor - menor
+print(menor,medio,mayor)
+
+#ejemplo 5
+costo = float(input('Sutotal:'))
+monto = costo*0.23+costo
+print("Total:", monto)
 
 #ejemplo 4
+tri1= int(input('Lado 1 de tu triangulo:'))
+tri2= int(input('Lado 2 de tu triangulo:'))
+tri3= int(input('Lado 3 de tu triangulo:'))
+ec1=tri1+tri2>tri3
+ec2=tri2+tri3>tri1
+ec3=tri1+tri3>tri2
+print((ec1 and ec2 and ec3)*"Es Triangulo"+(not(ec1 and ec2 and ec3))*"No es triangulo")
+#print((ec1*ec2*ec3)*("Es triangulo")+(ec1*ec2*ec3)*("No es triangulo"))
 
 #ejemplo 3
 pi= int(input('Paridad de tu numero:'))
