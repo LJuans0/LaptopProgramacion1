@@ -2,8 +2,10 @@
 #hoy se aprende a usar while buey
 
 #programa que halla la suma de todos los numeros pares desde el 2 hasta el dato que introduzca el usuario
-num4= int(input("pon tu numero prro:"))
-
+#num4= int(input("pon tu numero prro:"))
+items = [1,4,5,"hi"]
+for index, item in enumerate(items) :
+    print(item)
 #programa que imprime todos los numeros multiples de 5 desde el 50 al 55
 """num2=50
 while num2 <= 550:
