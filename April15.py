@@ -3,9 +3,7 @@
 
 #programa que halla la suma de todos los numeros pares desde el 2 hasta el dato que introduzca el usuario
 num4= int(input("pon tu numero prro:"))
-if num4<2:
-    print("intorudce un numero mayor o igual a 2")
-while num4
+
 #programa que imprime todos los numeros multiples de 5 desde el 50 al 55
 """num2=50
 while num2 <= 550:
