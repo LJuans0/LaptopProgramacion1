@@ -1,6 +1,28 @@
 #historial de abajo para arriba
 
+#suma 1**2 + 2**2 + 3**2 + 4**2 + 5**2 + 6**2
+i=1
+opr=0
+while i<=6:
+    opr+=i**2
+    i+=1
+print(opr)
 
+#suma 1**2 + 2**2 + 3**2 + 4**2 + 5**2 + 6**2
+"""i=1
+opr=0
+while i<=6:
+    opr+=i**2
+    i+=1
+print(opr)"""
+
+#suma 1/1 + 1/2 + 1/3 + 1/4 + 1/5
+"""i=1
+opr=0
+while i<=5:
+    opr+=1/i
+    i+=1
+print(opr)"""
 
 #programa que permita leer como dato unnumero y el programa imprima la tabla de multiplicardel numero que se ha ingresado con ese dato
 nn0=int(input("Tabla de multiplicacion de este numero:"))
