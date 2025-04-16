@@ -1,5 +1,31 @@
 #historial de abajo para arriba
 
+#programa que determine cuando pones un 0
+n=int(input("numero [con 0 termina]:"))
+cdnl=0
+conpar=0
+conimpar=0
+while n!=0:
+    if n%2==0:
+        conpar+=1
+    else:
+        conimpar+=1
+    cdnl+=1
+    n=int(input("Numero [con 0 termina]"))
+print("Numeros leidos:",cdnl)
+if conpar!=0:
+    print("Numeros pares:", conpar)
+if conimpar!=0:
+    print("Numeros impares:", conimpar)
+
+#funcion que suma determinados numeros de una serie tal que: 1**2 + 2**2 + 3**2 + 4**2 + 5**2... ...
+def hallarSuma(nter:int) -> int:
+    i = 1
+    opr = 0
+    while i <= nter:
+        opr += i ** 2
+        i += 1
+    return (opr)
 
 #suma 2**1 + 2**2 + 2**3 + 2**4 + 2**5 + 2**6 + 2**7 + 2**8
 """i=1
