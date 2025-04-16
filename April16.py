@@ -1,6 +1,7 @@
 #historial de abajo para arriba
+from contextlib import nullcontext
 
-#programa que determine cuando pones un 0
+#programa que determine cuando pones un 0 y cuente si los numeros que pusiste son pares o no
 n=int(input("numero [con 0 termina]:"))
 cdnl=0
 conpar=0
