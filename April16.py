@@ -1,12 +1,14 @@
 #historial de abajo para arriba
 
-#suma 1**2 + 2**2 + 3**2 + 4**2 + 5**2 + 6**2
-i=1
+#S
+
+#suma 2**1 + 2**2 + 2**3 + 2**4 + 2**5 + 2**6 + 2**7 + 2**8
+"""i=1
 opr=0
-while i<=6:
-    opr+=i**2
+while i<=8:
+    opr+=2**i
     i+=1
-print(opr)
+print(opr)"""
 
 #suma 1**2 + 2**2 + 3**2 + 4**2 + 5**2 + 6**2
 """i=1
