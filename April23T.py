@@ -25,7 +25,7 @@ def pregunta_1( dia : int, mes: int) ->str:
     elif (mes==3 and dia>=21) or (4<=mes<=5) or (mes == 6 and dia<=21):
         return "Otonno"
     elif (mes==6 and dia>=22) or (7<=mes<=8) or (mes == 9 and dia<=22):
-        return "Otonno"
+        return "Invierno"
     else:
         return "Primavera"
 
