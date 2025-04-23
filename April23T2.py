@@ -6,8 +6,8 @@ def pregunta_1(n: int) -> int:
     Retorna:
     int: el valor del término F(n)
     """
-
-    return None
+    res=(1/(5**0.5))*(((1+5**0.5)/2)**n)-(((1-5**0.5)/2)**n)
+    return round(res)
 
 
 def pregunta_2(n: int) -> int:
@@ -18,9 +18,15 @@ def pregunta_2(n: int) -> int:
     Retorna:
     int: el resultado de la suma alternante
     """
-
-    return None
-
+    counter=1
+    sum=0
+    while counter <= n:
+        if counter%2==0:
+            sum-=counter
+        else:
+            sum+=counter
+        counter+=1
+    return sum
 
 def pregunta_3(dinero_inicial: int, tasa_interes: float) -> int:
     """
@@ -31,9 +37,12 @@ def pregunta_3(dinero_inicial: int, tasa_interes: float) -> int:
     Retorna:
     int: El número de años que tomará duplicar el dinero.
     """
-
-    return None
-
+    tasa=0
+    contadorinsanote=1
+    while tasa<=dinero_inicial*2:
+        tasa=dinero_inicial*(1+tasa_interes)**contadorinsanote
+        contadorinsanote+=1
+    return contadorinsanote-1
 
 def pregunta_4(sea_wave: int, step: int) -> int:
     """
@@ -44,5 +53,16 @@ def pregunta_4(sea_wave: int, step: int) -> int:
     Retorna:
     int: Retorna la suma de la cantidad de días con oleaje fuerte y muy fuerte
     """
-
-    return None
+    suma=0
+    daycounter=1
+    if (sea_wave >= 101):
+        suma += 1
+    while daycounter<=4:
+        sea_wave += step
+        if (sea_wave >= 101):
+            suma+=1
+        daycounter+=1
+    return suma
+print(pregunta_4(6,2)) #debe ser =0
+print(pregunta_4(90,5)) #debe ser =2
+print(pregunta_4(120,-5)) #debe ser =4
