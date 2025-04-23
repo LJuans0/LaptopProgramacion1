@@ -28,7 +28,6 @@ def pregunta_1( dia : int, mes: int) ->str:
         return "Otonno"
     else:
         return "Primavera"
-    return ""
 
 def pregunta_2( n1 :  int, n2: int) ->int: 
     """
