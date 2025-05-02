@@ -9,7 +9,7 @@ def registro(nomvre,cod,pais="Peru"):
 registro("julio","2010256")
 registro("juan","2010256","peru")
 registro("julio","2010256","waza")
-registro(cod="12314",nomvre="perro")
+registro(cod="12314",nomvre="perroo")
 
 
 
